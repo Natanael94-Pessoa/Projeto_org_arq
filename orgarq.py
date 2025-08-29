@@ -1,6 +1,6 @@
 import os
     
-os.chdir(r"c:\Users\natan\Desktop\Cursos\Empowerdata\Python\03. Conceitos Avan de Python")
+os.chdir(r"caminho onde os arquivos se encontram")
 
 lista_arquivos = [arquivo.lower() for arquivo in os.listdir() if os.path.isfile(arquivo)]
 
